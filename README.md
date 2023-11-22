@@ -1,4 +1,4 @@
-# Customer-Behavior-Analysis_MSSQL-Server
+# Customer-Behavior-Analysis
 [Danny's Diner](https://8weeksqlchallenge.com/case-study-1/) is a case study project. It focuses on examining patterns, trends, and factors influencing customer spending in order to gain insights into their preferences, purchasing habits, and potential areas for improvement in menu offerings or marketing strategies in a dining establishment.
 
 # Customer Insights for Danny’s Diner
