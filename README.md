@@ -49,7 +49,7 @@ To aid in this case study, Danny has graciously provided three vital datasets:
 
 ## 7. Case Study Analysis
 
-### a. [Database and Tables Creation]( Database-and-Tables-Creation)
+### a. [Database and Tables Creation]( https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/blob/main/Database%20%26%20Table%20Query.sql)
 This section includes the "creation of database and tables" according to the information Danny has shared.
 
 - #### Database
@@ -65,7 +65,7 @@ This section includes the "creation of database and tables" according to the inf
 - #### Members Table
 ![Sales Table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/0d0a5e07-002d-46d6-b070-9b98c29c8038)
 
-### b. Case Study Queries
+### b. [Case Study Queries](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/blob/main/Case%20Study%20Queries.sql)
 1. What is the total amount each customer spent at the restaurant?
 2. How many days has each customer visited the restaurant?
 3. What was the first item from the menu purchased by each customer?
@@ -77,7 +77,7 @@ This section includes the "creation of database and tables" according to the inf
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-### c. Bonus Queries from Danny
+### c. [Bonus Queries from Danny](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/blob/main/Bonus%20Queries%20from%20Danny.sql)
 Danny requires to create basic data tables that his team can use to quickly derive insights without needing to write SQL. 
 I recreate the following tables output using the available data:
 
