@@ -12,8 +12,8 @@
 - [Case Study Analysis](Case-Study-Analysis)
   - [Database and Tables Creation](Database-and-Tables-Creation)
   - [Case Study Questions](Case-Study-Questions)
-  - [Extra Queries](Extra-Queries)
-- [Case Study Insights](Case-Study-Insights)
+  - [Bonus Queries from Danny](Bonus-Queries-from-Danny)
+- [Insights from Case Study](Insights-from-Case-Study)
 - [Conclusion](Conclusion)
 
 ## 1. Introduction
@@ -35,7 +35,7 @@ To aid in this case study, Danny has graciously provided three vital datasets:
 
 ## 4. Entity Relationship Diagram
 
-![Entity Relationship Diagram](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/c5e42f5a-f30b-420d-9465-db6d4875910d)
+![Entity Relationship Diagram](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/b8c3d2fc-d4c5-443d-8c32-c54d7342bd78)
 
 ## 5. SQL Tool
 [Microsoft SQL Server](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
@@ -53,20 +53,20 @@ To aid in this case study, Danny has graciously provided three vital datasets:
 This section includes the "creation of database and tables" according to the information Danny has shared.
 
 - #### Database Creation
-  
-![image](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/d32a5ae1-eb97-4624-afb8-6f4d8e16abf9)
+
+  ![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/56649cb2-48b3-4772-b621-0d181a53bdda)
 
 - #### Sales Table
   
-![image](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/8086c165-a7f7-49f4-ae2d-2e3cf226d0e6)
+![2  sales table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31d7b326-07c9-42b8-94a2-e417dda6134f)
+
 
 - #### Menu Table
-  
-![image](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/0d9b2e0b-65ea-41ca-8c5a-bbc819015ec6)
+  ![2  menu table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31c97276-52d2-478c-b47e-3e5b589ba15a)
+
 
 - #### Members Table
-  
-![image](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/51094731-2f21-466f-8c2f-41def68d58e5)
+![3  members table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/88fe6d92-24ba-42bf-9b91-6ae0c2ea2fe1)
 
 
 ### b. Case Study Queries
@@ -81,23 +81,28 @@ This section includes the "creation of database and tables" according to the inf
 9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-### c. Extra Queries 
+### c. Bonus Queries from Danny
 Danny requires to create basic data tables that his team can use to quickly derive insights without needing to write SQL. 
 I recreate the following tables output using the available data:
 
-- #### Making A Comprehensive Customer Data Table
+- #### Recreate a Comprehensive Customer Data Table:
 Here we need to create a view. A view is a virtual table. A view does not save the table data. It saves the query so that you do not need to rewrite it every time you need to retrieve data. You can view it like a normal table while in the background the saved query is called. An important advantage of the view is that when the source table(s) updates, the view also updates to show us the most recent changes.
 
-- #### Ranking Member Customer Products:
+- #### Rank the products of member customers:
 Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
 
 We are going to use the CASE statement to create another column that will substitute [null] for ’N’ then rank the other rows that have ‘Y’.
 
-## 8. Case Study Insights
+## 8. Insights from Case Study 
+From the analysis, I discovered the following interesting insights that would be certainly useful for Danny:
 - Customer B is the most frequent visitor with 6 visits in Jan 2021.
 - Danny’s Diner’s most popular item is ramen, followed by curry and sushi.
-- Customer A loves ramen, Customer C loves only ramen whereas Customer B seems to enjoy sushi, curry and ramen equally.
+- Customer A and C loves ramen whereas Customer B seems to enjoy sushi, curry and ramen equally.
+- Customer A is the 1st member of Danny’s Diner and his first order is curry.
 - The last item ordered by Customers A and B before they became members are sushi and curry. Does it mean both of these items are the deciding factor?
+- Before they became members, Customer A and Customer B spent $25 and $40 respectively.
+- Throughout Jan 2021, their points for Customer A: 860, Customer B: 940 and Customer C: 360.
+- Assuming that members can earn 2x points a week from the day they became a member — not just sushi, Customer A has 1370 points and Customer B has 940 points by the end of Jan 2021.
 
 ## 9.  Conclusion
-Now we can say that dann
+Now it can be said that Danny will be able to make the right decision for his business according to the outcomes from the case study.
