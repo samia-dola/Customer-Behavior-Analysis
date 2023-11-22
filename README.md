@@ -53,18 +53,17 @@ To aid in this case study, Danny has graciously provided three vital datasets:
 This section includes the "creation of database and tables" according to the information Danny has shared.
 
 - #### Database
-![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/6599da2e-75ee-451e-b2f3-70064bad8562)
+![Database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/553d5c90-b58a-4a3e-b927-2bf834822ffd)
 
 - #### Sales Table
   
-![2  sales table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31d7b326-07c9-42b8-94a2-e417dda6134f)
+![Sales Table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/86f70669-fbe1-4c69-be31-f162dd478782)
 
 - #### Menu Table
-  ![2  menu table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31c97276-52d2-478c-b47e-3e5b589ba15a)
+![menu table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/b7ae1544-9e3e-4702-86c6-bca518b53339)
 
 - #### Members Table
-![3  members table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/88fe6d92-24ba-42bf-9b91-6ae0c2ea2fe1)
-
+![Sales Table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/0d0a5e07-002d-46d6-b070-9b98c29c8038)
 
 ### b. Case Study Queries
 1. What is the total amount each customer spent at the restaurant?
