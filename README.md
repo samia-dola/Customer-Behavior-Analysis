@@ -54,7 +54,7 @@ This section includes the "creation of database and tables" according to the inf
 
 - #### Database
 
-  ![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/766ee659-d528-4940-bbbf-8abf8bf9321b)
+ ![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/e71e4a4a-ca71-40c4-804c-928c102e5c39)
 
 
 - #### Sales Table
