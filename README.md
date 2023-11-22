@@ -53,18 +53,14 @@ To aid in this case study, Danny has graciously provided three vital datasets:
 This section includes the "creation of database and tables" according to the information Danny has shared.
 
 - #### Database
-
- ![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/e71e4a4a-ca71-40c4-804c-928c102e5c39)
-
+![1  database](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/6599da2e-75ee-451e-b2f3-70064bad8562)
 
 - #### Sales Table
   
 ![2  sales table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31d7b326-07c9-42b8-94a2-e417dda6134f)
 
-
 - #### Menu Table
   ![2  menu table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/31c97276-52d2-478c-b47e-3e5b589ba15a)
-
 
 - #### Members Table
 ![3  members table](https://github.com/samia-dola/Customer-Behavior-Analysis_MSSQL-Server/assets/150064729/88fe6d92-24ba-42bf-9b91-6ae0c2ea2fe1)
