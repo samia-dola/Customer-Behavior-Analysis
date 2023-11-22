@@ -3,18 +3,18 @@
 
 # Customer Insights for Danny’s Diner
 ## Table of Contents
-- [Introduction](Introduction)
-- [Problem Statement](Problem-Statement)
-- [Datasets](Datasets)
-- [Entity Relationship Diagram](Entity-Relationship-Diagram)
-- [SQL Tool](SQL-Tool)
-- [Applied SQL Functions](Applied-SQL-Functions)
-- [Case Study Analysis](Case-Study-Analysis)
-  - [Database and Tables Creation](Database-and-Tables-Creation)
-  - [Case Study Questions](Case-Study-Questions)
-  - [Bonus Queries from Danny](Bonus-Queries-from-Danny)
-- [Insights from Case Study](Insights-from-Case-Study)
-- [Conclusion](Conclusion)
+- [Introduction](#Introduction)
+- [Problem Statement](#Problem-Statement)
+- [Datasets](#Datasets)
+- [Entity Relationship Diagram](#Entity-Relationship-Diagram)
+- [SQL Tool](#SQL-Tool)
+- [Applied SQL Functions](#Applied-SQL-Functions)
+- [Case Study Analysis](#Case-Study-Analysis)
+  - [Database and Tables Creation](#Database-and-Tables-Creation)
+  - [Case Study Questions](#Case-Study-Questions)
+  - [Bonus Queries from Danny](#Bonus-Queries-from-Danny)
+- [Insights from Case Study](#Insights-from-Case-Study)
+- [Conclusion](#Conclusion)
 
 ## 1. Introduction
 In the bustling city, amidst the aroma of delectable Japanese cuisine, there lies a charming little restaurant known as Danny’s Diner. It is the brainchild of Danny, a passionate lover of Japanese food. He took a leap of faith and opened his doors to sushi, curry and ramen enthusiasts in early 2021. With a dream in his heart and an appetite for success, Danny’s Diner began its journey.
