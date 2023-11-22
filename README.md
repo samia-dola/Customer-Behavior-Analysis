@@ -100,3 +100,4 @@ We are going to use the CASE statement to create another column that will substi
 - The last item ordered by Customers A and B before they became members are sushi and curry. Does it mean both of these items are the deciding factor?
 
 ## 9.  Conclusion
+Now we can say that dann
